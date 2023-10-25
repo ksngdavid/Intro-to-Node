@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "14.19.0",
+  "description": "Simple Web App",
+  "main": "hellolab40.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksngdavid/Intro-to-Node.git"
+  },
+  "author": "David Ng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksngdavid/Intro-to-Node/issues"
+  },
+  "homepage": "https://github.com/ksngdavid/Intro-to-Node#readme"
+}
