@@ -3,6 +3,7 @@
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
+const PORT = process.env.PORT || 5000
 
 http.createServer(function(req, res){
     var q = url.parse(req.url, true);                       // parse out the request URL
@@ -21,6 +22,6 @@ http.createServer(function(req, res){
         return res.end();                                          // Display the new webpage
     })
 
-}).listen(8080);
+}).listen(PORT);
 
 console.log("Web server listening on Port 8080...")
